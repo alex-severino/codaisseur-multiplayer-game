@@ -1,25 +1,32 @@
-# Multiplayer Game — Codaisseur Capstone (2019)
+# Multiplayer Game
 
-Final capstone project for the Codaisseur Full Stack Developer program, co-developed with Matias Mateu.
+A real-time multiplayer browser game built as the final capstone project for the Codaisseur Full Stack Developer programme in 2019.
 
-## Overview
+Developed collaboratively with **Matias Mateu**, the project combines a React and Redux client with a Node.js server. Socket.IO handles real-time communication between the client and server, allowing the application to respond to shared game events.
 
-[SUBSTITUTE: brief description of the actual core gameplay loop — two-player, with a flag/goal-based objective and platform mechanics based on the file structure, but confirm the real loop here rather than relying on my guess]
+## What the project demonstrates
 
-## Tech Stack
+- **Full-stack development** across a React frontend and Node.js backend.
+- **Real-time communication** using Socket.IO.
+- **State management** with Redux on the client.
+- **Client–server application architecture**, with separate frontend and server codebases.
 
-**Client** — React, Redux, Socket.IO client
-**Server** — Node.js, Socket.IO server
+## Technology
 
-Real-time client-server state sync (player positions, game state, connection handling) implemented via Socket.IO over WebSocket transport.
+| Area | Technologies |
+|---|---|
+| Frontend | React, Redux |
+| Backend | Node.js |
+| Real-time communication | Socket.IO |
 
-## Structure
+## Repository structure
 
-- `/client` — React/Redux frontend, real-time game state and rendering
-- `/server` — Node.js server, Socket.IO connection handling and game logic
+- `client/` – React application and client-side state management.
+- `server/` – Node.js application and Socket.IO server.
 
-## Context
+## Credits
 
-This project predates Dvor, the falling-block puzzle game currently in development at Studio Betonika, and shares no code with it. It's included here as evidence of hands-on real-time multiplayer architecture experience — Socket.IO/WebSocket communication, shared game state across clients — built prior to and informing Dvor's own Firebase-backed cross-platform leaderboard system.
+Built in collaboration with **Matias Mateu** as the Codaisseur Full Stack Developer programme capstone project.
 
-Built in 2019, unmodified since except for repository reorganisation.
+**Project type:** Full-stack web application · Real-time multiplayer  
+**Year:** 2019
